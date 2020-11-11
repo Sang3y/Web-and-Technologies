@@ -1,0 +1,72 @@
+Case Study 3: Theft of Intellectual Property
+China sought to develop a next generation trading platform for brokers and dealers. China’s state-owned Pangang conspired to steal the technology (design and code) developed by the US financial services company. A contractor (development manager) who had spent 15 years with that US Company used a privileged position to help Pangang. The financial impact of this incident is estimated to be in the billions of dollars, and that does not factor in the consequent loss of competitive advantage for the firm.
+=================================================================
+Team members: 
+1.	Grissel Lopez & Danny Mancheno: Behavioral Analyst
+2.	Fizza Khan & Amose Ho: Compliance Analyst
+3.	Dylan Rambarran: Cyber Threat Analyst
+4.	Sangey Lama: Information Security Officer (ISO)
+5.	Resha Ramcharan & Raj Rana: IT Risk Analyst
+=================================================================
+1.     Understand the case and summarize it:    
+●	Who was the threat-actor (Behavioral Analyst)
+The threat actor in this case was Walter Liew, a development manager who had spent 15 years with the US financial services Company. He used his position to impact the security of the company by stealing design and code. Walter considered this to be a low risk factor job, seeking to make a large amount of money. Although Walter had been on the job for 15 years, he did not feel like he was a well valued employee in the company and felt undercompensated. This malicious intent led Walter to make deals with the Pangang Group companies. Once these multi million deals started happening, Walter Liew became a high risk because he was an insider threat to the US financial services company.
+●	Root cause of problem (Behavioral Analyst)
+	The root problem may have been a financial motivator, while numbers are not precisely known, the value for the theft was likely big enough to be convincing for the contractor to abandon his 15 year long reputation. Another likely scenario is a nationalistic perspective, the contractor may have had not only had ties with the corportation, but in addition held a deeply rooted china-first internal attitude at the detriment to the US corporation. While the contractor may have been the final catalyst for the theft. There is also the view that pangang sought to obtain industry technology and designs at any means. A scenario that’s becoming more frequent in web tech today. Which is why we have passed the Economic Espionage Act of 1996, to help combat these bad actors. And finally, the other main bad actor is the seemingly chinese-state culture of stealing our research and advancement for themselves. 
+
+●	How do you prioritize what to do first (IT Risk Analyst - Raj Rana)
+○	Gather all the evidence through activity logs and employees/vendors emails to identify possible culprits.
+○	Evaluate the level of damage and find ways to minimize it.
+○	Freeze all the vendor account immediately for a time period, before the potential threat has been identified
+
+●	Who do you report the incident to (Information Security Officer(ISO))
+The incident should be reported to local field offices of federal law enforcement agencies such as The Federal Bureau of Investigation and National Cyber Investigative Joint Task Force.
+
+2.     How do you communicate to the business units? (Compliance Analyst- Fizza)
+            The best and most continent way to communicate to the business units is to explain the details and consequences of the incident that has occurred. It is very important to build trust and engage leadership with the business. A few steps that are critical to take in order to communicate are to contact the business units and explain the attack, highlight the efforts that the company is making in order to handle the situation and talk about the possible ways to prevent future attacks. 
+
+3.     What’s the messaging you provide to business units. How about the executives? (Compliance Analyst -Fizza)
+As mentioned previously, it is very important to inform the business units that if this attack is successful, the financial impact of this attack is estimated to be in the billions of dollars to ensure that they are prepared for the consequences.
+ 
+Since in this case, the development manager who had spent 15 years with the US Company helped steal the technology design and code, it is also important to avoid notifying all employees until the matter is resolved, however it is important to inform the Head of Executive so that they can take further action.  
+            
+In addition, the executives must receive detailed information on the attack such as: 
+o  The reason and cause of the attack.
+o  The consequences of the attack on the company.
+o  Ways to control the damage that is caused by the attack and how the company is working on methods to regulate it.
+o  How to prevent similar attacks in the future.
+
+4.     What would be the messaging for the public if the impact was to a key public facing business process. (Compliance Analyst)
+Due to the nature of the public relations, we would need to provide information similar to what we provided the business executives. However, it would need to be concise and made easily understandable to the public. As stated before, the important key points would be 
+o  The reason and cause of the attack.
+o  The consequences of the attack on the company.
+o  Ways to control the damage that is caused by the attack and how the company is working on methods to regulate it.
+o  How to prevent similar attacks in the future.
+The key differences in dealing with a public message would be that we would need to prepare a solidified plan of recovery, along with a detailed report of how it would affect who the product would be available to. We cannot be careless and release a message too soon before we have concrete data because that could end up backfiring and causing distrust in our company more than what has already happened. The delivery of the message is sometimes more important than the message itself. 
+
+5.      Findings.  (Behavioral Analyst /Cyber Threat Analyst - Dylan) 
+	The person that was behind a similar case was Walter Lian-Heen Liew. Liew owned the company USA Performance Technology Inc, and used his resources to sell trade secrets to China. He didn’t use technology to steal, but he took the technology itself. He stole the company DuPont’s pigment technology to make things whiter to the Chinese government for $28 million dollars. This is similar to the case that we are looking at, and in terms of a 
+
+
+	
+6.     What laws are in place to convict the threat actor. (Information Security Officer(ISO)-Sangey)
+-The Computer Fraud and Abuse Act (CFFA)
+Walter Lian-Heen Liew worked with a US financial services company for 15 years, and decided to steal the company data with attempts to gain profits and help China's state-owned Pangang. His crimes include the violation of Economic Espionage, tax evasion, bankruptcy law, and obstruction of justice. These crimes overlap with the offense in, The Computer Fraud and Abuse Act (CFFA) and Economic Espionage Act.  Accessing a computer to obtain valuable information from a computer through unauthorized access and multiple convictions is what led Walter to be sentenced in prison for 15 years. 
+
+7.     What controls / security measures should be implemented to prevent a repeat. (IT Risk Analyst- Raj Rana and Resha Ramcharan)
+The following are some controls/security measures that can be implemented to prevent the repeat of the incident.
+●	Setup copyrights and patents for all the company’s intellectual properties.
+●	Thoroughly vet vendors and employees before bringing them onboard and have them sign NDAs (Non-Disclosure Agreements).
+●	Compartmentalize the main system and only provide access to vendors and employees on a need-to-know basis.
+●	Institute company-wide email monitoring to identify any future threats.
+●	Track Employee’s and vendor’s system login activity and identify any red flags based on their location. For example, if an employee goes on “vacation” to China and logs into business servers, it should be considered suspicious.
+
+8.     Recommendations. (IT Risk Analyst - Raj Rana)
+●	Implement a training program to educate employees and vendors on safe practices to prevent any future theft.
+●	Conduct exit interviews with parting employees or contractors to detect any threat and immediately restrict their access into the system.
+●	Periodically evaluate the risk associated with various vendors and employees and identify ways to mitigate it.
+
+
+
+
+
