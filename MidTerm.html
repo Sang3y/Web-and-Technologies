@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MidtermExam#1_Part_B</title>
+        <meta author="name" content="Sangey Lama">
+        <meta author="exam" content="MidtermExam#1_Part_B">
+        <style>
+            table{
+                border-collapse: collapse;
+                margin-top:10px;
+            }
+            td{
+                border: 1px solid black;
+                width: 30px;
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <label for="WidthText">Width:</label>
+        <input type="textbox" name="WidthText" id="WidthText">
+        <label for="HeightText">Height:</label>
+        <input type="textbox" name="HeightText" id="HeightText">
+        <input type="button" value="BUILD" onClick="buildBoard()">
+        <label for="CureModeText">Cure Mode:</label>
+        <input type="checkbox" name="CureModeText" id="CureModeText">
+        <table id="VirusTable">
+        </table>
+        <script>
+            function buildBoard(){
+                 var WidthValue = document.getElementById("WidthText").value;
+                 var HeightValue = document.getElementById("HeightText").value;
+                var VirusTable = document.getElementById("VirusTable");
+                var RowClicked;
+                var CellClicked;
+                 VirusTable.innerHTML="";
+                if(WidthValue>0 && WidthValue<10 && HeightValue>0 && WidthValue<10 ){
+                    for(var i=0; i<HeightValue;i++){
+                       var row = VirusTable.insertRow(i);
+                        for(var j=0; j<WidthValue; j++){
+                           var cell = row.insertCell(j);
+                            
+                            cell.setAttribute("row",""+i+"");
+                            cell.setAttribute("cell",""+j+"");
+                            
+                            if((j+i)%2==0){
+                                cell.setAttribute("style","background-color:red");
+                            }else{
+                                cell.setAttribute("style","background-color:yellow");
+                            }
+                            var rNum= (Math.floor(Math.random()*4));
+                            if(rNum==2){
+                                cell.innerHTML="V";
+                            }
+                            
+                            cell.onclick =function(){
+                                
+                               var CureModeCheck = document.getElementById("CureModeText").checked;  
+                                if(CureModeCheck==true){
+                                    this.innerHTML="";
+                                }else{
+                                    if(this.innerHTML!=""){
+                                        var thisRowIndex = parseInt(this.getAttribute("row"));
+                                   
+                                        var thisCellIndex = parseInt(this.getAttribute("cell"));
+                                       
+                                        var left_right=VirusTable.rows[thisRowIndex].cells;
+                                      
+                                        if(thisRowIndex>0){
+                                        var top = VirusTable.rows[thisRowIndex-1].cells;
+                                             top[thisCellIndex].innerHTML ="V";
+                                           }
+                                        
+                                        if(thisRowIndex<HeightValue-1){
+                                        var bottom = VirusTable.rows[thisRowIndex+1].cells;
+                                            bottom[thisCellIndex].innerHTML="V";
+                                        }
+                                       
+                                        if(thisCellIndex<WidthValue-1){
+                                        left_right[thisCellIndex+1].innerHTML ="V";
+                                        }
+                                         
+                                        if(thisCellIndex>0){
+                                        left_right[thisCellIndex-1].innerHTML ="V";
+                                        }
+                                         
+                                       
+                                        
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                else{
+                    alert("Your Input are only between 1-9");
+                }
+            }
+            
+        
+        </script>
+    </body>
+
+
+</html>
