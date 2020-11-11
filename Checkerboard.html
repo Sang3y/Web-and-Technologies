@@ -5,7 +5,39 @@
         <meta name="Sangey Lama"/>
         <meta name="Exam#1 Coding Assignment">
         <link rel="stylesheet" href="Board.css">
-        <script type="text/javascript" src="CheckBoardJS.js"></script>
+        <script >
+               function makeBox(){
+               document.getElementById("tableBoard").innerHTML ="";
+               var boxSize = document.getElementById("UserInput").value;
+               var BlackorRed =0;
+               for(var j=0; j<boxSize; j++){
+   
+                   document.getElementById("tableBoard").innerHTML+= "<tr id=tr"+j+">";
+                   for(var k=0; k<boxSize; k++){
+                   if(BlackorRed==0){
+                          document.getElementById("tr"+j).innerHTML += "<td style=\"background-color:black\"     onClick=Incre(this)> 0 </td>";
+                          BlackorRed =1;
+                   }
+                   else {
+                         document.getElementById("tr"+j).innerHTML += "<td style=\"background-color:red\"     onClick=Incre(this)> 0 </td>";
+                          BlackorRed =0;
+             
+                   }
+             
+               }
+        
+               document.getElementById("tableBoard").innerHTML+="</tr>";
+             }
+     
+   
+            }
+
+
+            function Incre(tabledata){
+
+                tabledata.innerHTML=parseInt(tabledata.innerHTML)+1;
+            }
+        </script>
     </head>
     
     <body>
@@ -15,20 +47,7 @@
         <input type="button" value="Create" class="createBox" id="createBox" onClick="makeBox()">
         <table id="tableBoard">
         
-            
-        </table>
-        
-    
-
-            
-    
-            
-            
-        
-        
+         
+        </table>            
     </body>
-
-
-
-
 </html>
