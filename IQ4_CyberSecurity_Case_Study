@@ -1,0 +1,30 @@
+
+
+iQ4 Cybersecurity Case Study
+Individual Assignment #1
+
+Name:   Sangey Lama
+Date:   3/25/2020
+
+•	Your definition of Incident Response:
+             -China's state-owned Pangang plotted to steal the US financial services company's technology and used it to develop a new trading platform for brokers and dealers. A US financial company's contractor who has worked for 15 in that company decided to whistle-blow and help China's state-owned Pangang. There would be a financial loss with estimation of billions of dollars, but it won't factor in the consequent loss of competitive advantage for the company.
+	
+•	What are indicators of an incident:	                            
+•	Possible notification from IDPS about data intrusion at international level.
+•	Presence of unexpected new and unfamiliar accounts within the firm.
+•	Suspicious activity from employees such as the contractor from a US financial company at unexpected times.
+•	Presence of unfamiliar files, execution of unknown programs or processes.
+•	Probable reported attacks from China’s state-owned Pangang
+
+•	Site Resumption Strategies:   
+             Place the below in each cell.
+             Key:   Long, Fixed, Low, Medium, None, Partial, Full, Medium/High, High, Full, Short, Not Fixed, Dependent
+Site	Cost	Hardware/Equipment	     Telecomm	    Set-Up Time	       Location
+Cold Site	Low	None	None	Long	fixed
+Warm Site	Medium	Partial	partial/full	Medium	fixed
+Hot Site	Medium/High	Full	Full	Short	fixed
+Mobile Site	Dependent	Dependent	Dependent	Dependent	fixed
+Mirrored Site	High	Full	Full	None	fixed
+
+•	What is the Difference between Disaster Recovery Plan and Business Continuity Plan:   
+         -The main difference is the timing of the effect of the plan. Disaster Recovery Plan's attention is toward how the business responds after the incident ends and how it goes back to normal. Business Continuity Plan keeps the businesses action functional during the incident and on the following event. 
